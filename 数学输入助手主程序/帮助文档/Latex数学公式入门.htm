@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0033)http://ks.51100.net/tex/help.html -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>数学公式输入指令解释</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<STYLE>BODY {
+	FONT-SIZE: 13px; MARGIN: 10px; TEXT-ALIGN: center
+}
+#Main {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 800px; PADDING-TOP: 10px; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: left
+}
+H5 {
+	COLOR: #ff0000
+}
+</STYLE>
+
+<META content="MSHTML 6.00.2900.6212" name=GENERATOR></HEAD>
+<BODY>
+<DIV id=Main>
+<H5>1、普通公式</H5>
+<P>公式：(注：要想在得到的公式里换行，则使用“\\”符号)<BR>1+1=2,a+b=c\\123abc</P>
+<P>效果：</P>
+<P><IMG src="数学公式输入指令解释.files/nictex.gif" border=0> </P>
+<P>公式：<BR>(a+b)^4 = (a+b)^2+(a+b)^2 
+\\<BR>=(a^2+2ab+b^2)(a^2+2ab+b^2)\\<BR>=a^4+4a^3b+6a^2b^2+4ab^3+b^4</P>
+<P>效果：<BR></P>
+<P><IMG 
+src="C:\Documents and Settings\Administrator\桌面\数学公式输入指令解释.files\nictex(1).gif"> 
+<BR></P>
+<P>——————————</P>
+<H5>2、空格的正常输出以及非斜体英文字母的输出</H5>
+<P>公式：<BR>\mbox{This is a tex tool.}</P>
+<P>效果：</P>
+<P><IMG 
+src="C:\Documents and Settings\Administrator\桌面\数学公式输入指令解释.files\nictex(2).gif"></P>
+<P>——————————</P>
+<H5>3、分情况讨论</H5>
+<P>公式：<BR>f(x)=\left\{<BR>\begin{array}{1 1}<BR>1, &amp; x\geq 0\\<BR>-1, &amp; 
+\mbox{else}<BR>\end{array}</P>
+<P>效果：<IMG 
+src="C:\Documents and Settings\Administrator\桌面\数学公式输入指令解释.files\nictex(3).gif"></P>
+<P>——————————<BR></P>
+<H5>4、分式的输出</H5>
+<P>公式：<BR>\frac{x+y}{x-y}</P>
+<P>效果：</P>
+<P><IMG 
+src="C:\Documents and Settings\Administrator\桌面\数学公式输入指令解释.files\nictex(4).gif"></P><BR><BR>
+<P>公式：<BR>\frac{1}{1+\frac{1}{1+\frac{1}{1+\frac{1}{x}}}}</P>
+<P>效果：</P>
+<P><IMG 
+src="C:\Documents and Settings\Administrator\桌面\数学公式输入指令解释.files\nictex(5).gif"> 
+<BR></P>
+<P>——————————</P>
+<H5>5、开平方：</H5>
+<P>公式：<BR>\sqrt[3]{1+\sqrt[4]{1+\sqrt[4]{1+\sqrt{x}}}}</P>
+<P>效果：</P>
+<P><IMG 
+src="C:\Documents and Settings\Administrator\桌面\数学公式输入指令解释.files\nictex(6).gif"></P>
+<P>——————————</P>
+<H5>6、求和、求积、积分、极限、多重积分等：</H5>
+<P>公式：<BR>\sum_{i=1}^{\infty}a_i,\\<BR>\prod_{j=1,2,...,n}P_i,\\<BR>\int_{-\infty}^\infty 
+f(x)dx,\\<BR>\lim_{t\to\infty}e(t),\\<BR>\int \int \int f(x,y,z)dxdydz</P>
+<P>效果：</P>
+<P><IMG 
+src="C:\Documents and Settings\Administrator\桌面\数学公式输入指令解释.files\nictex(7).gif"></P>
+<P>一点说明：\infty代表无穷的符号，而\to代表右箭头→，另外如果在\sum等符号后面加入\limits，则会出现不通的效果：<BR>\sum\limits_{i=1}^{\infty}a_i,<BR>\prod\limits_{j=1,2,...,n}P_i,<BR>\int\limits_{-\infty}^\infty 
+f(x)dx </P>
+<P>效果：</P>
+<P><IMG 
+src="C:\Documents and Settings\Administrator\桌面\数学公式输入指令解释.files\nictex(8).gif"></P>
+<P>——————————</P>
+<H5>7、间隔号</H5>
+<P>公式：<BR>\LARGE{This\,is\:a\;book.}</P>
+<P>\,间隔最小 \:间隔中等 \;间隔最大</P>
+<P>\LARGE代表输出更大的字体</P>
+<P>效果：</P>
+<P><IMG 
+src="C:\Documents and Settings\Administrator\桌面\数学公式输入指令解释.files\nictex(9).gif"> 
+</P>
+<P>——————————</P>
+<H5>8、矩阵的表示</H5>
+<P>公式：（每行之前要有空格！这里显示不出来）<BR>\left[\matrix{<BR>a_{11} &amp; a_{12} &amp; a_{13} 
+\cr<BR>a_{21} &amp; a_{22} &amp; a_{23} \cr<BR>a_{31} &amp; a_{32} &amp; a_{33} 
+\cr<BR>} \right]</P>
+<P>效果：</P>
+<P><IMG 
+src="C:\Documents and Settings\Administrator\桌面\数学公式输入指令解释.files\nictex(10).gif"></P><BR>
+<P>——————————</P>
+<H5>9、更复杂矩阵的表示</H5>
+<P>公式：（注：\ddots代表斜着的三个点）<BR>\left[\matrix{<BR>b_0 &amp; c_0 &amp; \cr<BR>c_0 
+&amp; b_1 &amp; c_1 &amp; \cr<BR>&amp; c_1 &amp; b_2 &amp; c_2 &amp; 
+\cr<BR>&amp;&amp; \ddots &amp; \ddots &amp; \ddots &amp; 
+\cr<BR>&amp;&amp;&amp;c_{n-3} &amp; b_{n-2} &amp; c_{n-2} 
+&amp;\cr<BR>&amp;&amp;&amp;&amp; c_{n-2} &amp; b_{n-1}<BR>} \right]</P>
+<P>效果：</P>
+<P><IMG src="数学公式输入指令解释.files/CAQVKTYV.gif"></P>
+<P><BR>—————————</P>
+<H5>10、任意叠放两个公式：</H5>
+<P>公式：<BR>A \stackrel{a'}{\rightarrow} B \stackrel{b'}{\rightarrow} C</P>
+<P><IMG 
+src="C:\Documents and Settings\Administrator\桌面\数学公式输入指令解释.files\nictex(11).gif"></P>
+<P>——————————</P>
+<H5>11、将大写字母变成手写字体：</H5>
+<P>公式：<BR>{\cal ABCDEFGHIJKLMNOPQRSTUVWXYZ}\\ABCDEFGHIJKLMNOPQRSTUVWXYZ<BR></P>
+<P><IMG 
+src="C:\Documents and Settings\Administrator\桌面\数学公式输入指令解释.files\nictex(12).gif"></P>
+<P>——————————</P>
+<H5>12、颜色、字号与花体字体：</H5>
+<P>输入：</P>
+<P>\blue {\huge \mathscr 
+A,B,C,D,E,F,G,H,I,J,K,L,M,\\N,O,P,Q,R,S,T,U,V,W,X,Y,Z}<BR>\\ A,B,C,D</P>
+<P>效果：</P>
+<P><IMG 
+src="C:\Documents and Settings\Administrator\桌面\数学公式输入指令解释.files\nictex(13).gif"></P>
+<P>\blue ——代表颜色，类似的颜色控制命令还有\red \green \black。</P>
+<P>\huge ——字号大小命令，类似的命令还有</P>
+<P>\tiny \scriptsize \footnotesize \small \normalsize \large \Large \LARGE \huge 
+\Huge \HUGE，</P>
+<P>\tiny最小，字的大小依次增加，最大的是\HUGE</P>
+<H5>13、实数域、复数域的表示：</H5>
+<P>公式：<BR>x \in \mathbb{C}\\<BR>y \in \mathbb{R}\\<BR>\mathbb{ABCDEFG}</P>
+<P><IMG 
+src="C:\Documents and Settings\Administrator\桌面\数学公式输入指令解释.files\nictex(14).gif"></P>
+<H5>1）注音符号、特殊符号和修饰符号</H5>
+<P><IMG src="数学公式输入指令解释.files/Tex01.jpg"></P><BR>
+<H5>2）小写希腊字母</H5>
+<P><IMG src="数学公式输入指令解释.files/Tex02.jpg"></P>
+<H5>3）大写希腊字母（一些大写希腊字母与英文中的是一致的，这些希腊字母略）</H5>
+<P><IMG src="数学公式输入指令解释.files/Tex03.jpg"></P>
+<H5>4）常用数学符号</H5>
+<P><IMG src="数学公式输入指令解释.files/Tex04.jpg"></P>
+<H5>5）较大的数学符号</H5>
+<P><IMG src="数学公式输入指令解释.files/Tex05.jpg"></P>
+<H5>6）二元运算符号</H5>
+<P><IMG src="数学公式输入指令解释.files/Tex06.jpg"></P>
+<H5>7）关系数学符号</H5>
+<P><IMG src="数学公式输入指令解释.files/Tex07.jpg"></P>
+<H5>8）否定关系运算符号</H5>
+<P><IMG src="数学公式输入指令解释.files/Tex08.jpg"></P>
+<H5>9）箭头符号</H5>
+<P><IMG src="数学公式输入指令解释.files/Tex09.jpg"></P>
+<H5>10）边界符号</H5>
+<P><IMG src="数学公式输入指令解释.files/Tex10.jpg"></P>
+<DIV style="DISPLAY: none">
+<SCRIPT language=javascript src="数学公式输入指令解释.files/303802.js" 
+type=text/javascript></SCRIPT>
+</DIV></DIV></BODY></HTML>

@@ -1,0 +1,7 @@
+LIBRARY GEO
+
+      DESCRIPTION "this is GEO dll"
+
+      EXPORTS
+
+    DrawGeometryFigure;

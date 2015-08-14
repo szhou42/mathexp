@@ -1,0 +1,8 @@
+[历史]
+1=#P0#=mb	#P1#=shanchu_Click	#P2#=工程1/add_data/shanchu_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20120821162924	#P7#=0	#P8#=1	.
+2=#P0#=mb	#P1#=DataGrid1_Click	#P2#=工程1/add_data/DataGrid1_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20120821163003	#P7#=0	#P8#=0	.
+3=#P0#=mb	#P1#=Form_Load	#P2#=工程1/add_data/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20120821161007	#P7#=0	#P8#=3	.
+4=#P0#=mb	#P1#=Command1_Click	#P2#=工程1/add_data/Command1_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20120821160455	#P7#=0	#P8#=21	.
+5=#P0#=mb	#P1#=Timer1_Timer	#P2#=工程1/add_data/Timer1_Timer	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20120821162752	#P7#=0	#P8#=0	.
+6=#P0#=mb	#P1#=SubWndProc	#P2#=工程1/Robber/SubWndProc	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20120821153801	#P7#=0	#P8#=12	.
+7=#P0#=mb	#P1#=Form_Load	#P2#=工程1/InputHelper/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20120821125022	#P7#=0	#P8#=1	.

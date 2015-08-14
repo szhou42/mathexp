@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MimeTeX - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6C.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "MIMETEX_EXPORTS" /D "AA" /D "_MBCS" /FR"Release/" /Fo"Release/" /Fd"Release/" /c 
+"C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6C.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/MimeTeX.pdb" /debug /machine:IX86 /out:"Release/MimeTeX.dll" /implib:".\Release/MimeTeX.lib" /pdbtype:sept /opt:ref /opt:icf 
+".\Release\gifsave.obj"
+".\Release\mimetex.obj"
+".\Release\MimeTeXDLLMain.obj"
+".\Release\stdafx.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6D.tmp"
+<h3>Output Window</h3>
+Compiling...
+mimetex.c
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11196) : error C2065: 'referer' : undeclared identifier
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11196) : warning C4047: '!=' : 'int ' differs in levels of indirection from 'void *'
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11197) : warning C4047: 'function' : 'const char *' differs in levels of indirection from 'int '
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11197) : warning C4024: 'strcmp' : different types for formal and actual parameter 1
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11198) : error C2065: 'http_referer' : undeclared identifier
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11198) : warning C4047: '!=' : 'int ' differs in levels of indirection from 'void *'
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11199) : warning C4013: 'isstrstr' undefined; assuming extern returning int
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11201) : error C2065: 'isinvalidreferer' : undeclared identifier
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11206) : warning C4047: '!=' : 'int ' differs in levels of indirection from 'void *'
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11208) : warning C4047: 'function' : 'const char *' differs in levels of indirection from 'int '
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11208) : warning C4024: 'strstr' : different types for formal and actual parameter 1
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11219) : error C2065: 'denyreferer' : undeclared identifier
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11219) : error C2109: subscript requires array or pointer type
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11219) : error C2224: left of '.referer' must have struct/union type
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11223) : warning C4047: '==' : 'int ' differs in levels of indirection from 'void *'
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11223) : warning C4047: ':' : 'char [5]' differs in levels of indirection from 'int '
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11225) : warning C4047: '==' : 'int ' differs in levels of indirection from 'void *'
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11226) : error C2109: subscript requires array or pointer type
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11226) : error C2224: left of '.msgnum' must have struct/union type
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11228) : warning C4047: '!=' : 'int ' differs in levels of indirection from 'void *'
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11230) : error C2109: subscript requires array or pointer type
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11230) : error C2224: left of '.msgnum' must have struct/union type
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11240) : error C2065: 'ishttpreferer' : undeclared identifier
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11241) : error C2065: 'norefmaxlen' : undeclared identifier
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11241) : warning C4018: '>' : signed/unsigned mismatch
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11289) : warning C4047: '!=' : 'int ' differs in levels of indirection from 'void *'
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11290) : error C2100: illegal indirection
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11292) : warning C4047: 'initializing' : 'char *' differs in levels of indirection from 'int '
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11296) : warning C4018: '<=' : signed/unsigned mismatch
+C:\Documents and Settings\Administrator\桌面\数学输入法助手\源代码\功能模块源码\MimeTeX\mimetex.c(11844) : warning C4018: '<' : signed/unsigned mismatch
+执行 cl.exe 时出错.
+Creating command line "bscmake.exe /nologo /o"Release/MimeTeX.bsc"  ".\Release\stdafx.sbr" ".\Release\gifsave.sbr" ".\Release\mimetex.sbr" ".\Release\MimeTeXDLLMain.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+MimeTeX.dll - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

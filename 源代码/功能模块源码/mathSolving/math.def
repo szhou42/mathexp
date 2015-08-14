@@ -1,0 +1,8 @@
+LIBRARY jues
+
+      DESCRIPTION "this is jues dll"
+
+      EXPORTS
+
+    Result;
+

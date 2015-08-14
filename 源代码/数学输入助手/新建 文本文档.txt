@@ -1,0 +1,12 @@
+        If Left(tmpS, 5) = "unit-" Then
+            '得到除"unit-"之外的字符串
+            '获取括号中的字符串,如果是cm-m的话 就将括号后面的数值除以100
+            convertion = Mid(tmpS, 6)
+            leftBra = InStr(convertion, "(")
+            rigBra = InStr(convertion, ")")
+            size = rigBra - leftBra - 1
+            context = Mid(convertion, leftBra + 1, size)
+            If context = "cm-m" Then
+                x = Mid(convertion, rigBra + 1)
+                context = CStr(Result(x))
+            End If
